@@ -2,7 +2,7 @@ import itertools
 
 from . import sql
 
-PPIS_TO_ANALYZE = ['bossi', 'ccsb', 'havu', 'string', 'psicquic_all']
+PPIS_TO_ANALYZE = ['bossi', 'ccsb', 'ccsb_sec', 'havu', 'string', 'psicquic_all']
 #PPIS_TO_ANALYZE = ['psicquic_dip', 'psicquic_i2d_imex',
 #                   'psicquic_innatedb_imex', 'psicquic_intact',
 #                   'psicquic_matrixdb', 'psicquic_mbinfo', 'psicquic_mint',

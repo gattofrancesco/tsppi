@@ -61,6 +61,7 @@ pappi.go.import_ass.import_go_association(GO_ASSOC_FILE, con)
 ##############################
 
 from pappi.ppis.ccsb import CCSB
+from pappi.ppis.ccsb_sec import CCSB_SEC
 from pappi.ppis.bossi_lehner import Bossi_Lehner
 from pappi.ppis.havu import Havugimana
 from pappi.ppis.string import StringDB
@@ -69,6 +70,9 @@ from pappi.ppis.psicquic_comb import PsicquicAll
 
 ccsb_ppi = CCSB(CCSB_FILE, con)
 ccsb_ppi.init_ppi(True)
+
+ccsb_sec_ppi = CCSB_SEC(CCSB_SEC_FILE, con)
+ccsb_sec_ppi.init_ppi(True)
 
 bossi_ppi = Bossi_Lehner(BOSSI_FILE, con)
 bossi_ppi.init_ppi(True)

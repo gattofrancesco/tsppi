@@ -32,6 +32,7 @@ U133A_ANNOT_FILE = os.path.join(EXPR_DATA_FOLDER, 'GPL96-15653.txt')
 
 # paths to PPIs
 CCSB_FILE = os.path.join(PPI_DATA_FOLDER, 'HI-II-14.tsv')
+CCSB_SEC_FILE = os.path.join(PPI_DATA_FOLDER, 'hppi_sec.txt')
 BOSSI_FILE = os.path.join(PPI_DATA_FOLDER, 'CRG.integrated.human.interactome.txt')
 HAVU_FILE = os.path.join(PPI_DATA_FOLDER, 'cell_havugimana_ppi.tsv')
 STRING_FILE = os.path.join(PPI_DATA_FOLDER, 'protein.links.v10.500.txt')
@@ -44,6 +45,7 @@ PSICQUIC_FILES = [os.path.join(PPI_DATA_FOLDER, f)
 
 # import expression data sets
 HPA_FILE = os.path.join(EXPR_DATA_FOLDER, 'normal_tissue.csv')
+HPARNA_FILE = os.path.join(EXPR_DATA_FOLDER, 'rna_tissue.csv')
 EMTAB_FILE = os.path.join(EXPR_DATA_FOLDER, 'E-MTAB-513.tsv')
 RNASEQ_ATLAS_FILE = os.path.join(EXPR_DATA_FOLDER, 'RNA_Seq_Atlas_rev1.txt')
 GENE_ATLAS_FILE = os.path.join(EXPR_DATA_FOLDER, 'U133AGNF1B.gcrma.avg.csv')
