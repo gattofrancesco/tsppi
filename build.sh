@@ -9,6 +9,8 @@ echo "#######################################################################"
 echo "#              Building NetworKit and Subgraphs library               #"
 echo "#######################################################################"
 
+export CC=/usr/local/bin/gcc-5
+export CXX=/usr/local/bin/g++-5
 cd ppi_networkit
 mkdir build
 cd build

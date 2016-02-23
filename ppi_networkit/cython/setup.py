@@ -7,8 +7,8 @@ import os
 import shutil
 
 # set C and C++ compiler
-os.environ["CC"] = "g++"
-os.environ["CXX"] = "g++"
+os.environ["CC"] = "g++-5"
+os.environ["CXX"] = "g++-5"
 
 src = ["ppi_networkit.pyx"]  # list of source files
 
