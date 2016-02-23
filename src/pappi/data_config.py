@@ -45,7 +45,7 @@ PSICQUIC_FILES = [os.path.join(PPI_DATA_FOLDER, f)
 
 # import expression data sets
 HPA_FILE = os.path.join(EXPR_DATA_FOLDER, 'normal_tissue.csv')
-HPARNA_FILE = os.path.join(EXPR_DATA_FOLDER, 'rna_tissue.csv')
+HPARNA_FILE = os.path.join(EXPR_DATA_FOLDER, 'rna_tissue.txt')
 EMTAB_FILE = os.path.join(EXPR_DATA_FOLDER, 'E-MTAB-513.tsv')
 RNASEQ_ATLAS_FILE = os.path.join(EXPR_DATA_FOLDER, 'RNA_Seq_Atlas_rev1.txt')
 GENE_ATLAS_FILE = os.path.join(EXPR_DATA_FOLDER, 'U133AGNF1B.gcrma.avg.csv')

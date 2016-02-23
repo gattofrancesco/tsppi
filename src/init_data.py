@@ -108,6 +108,7 @@ psicquic_all_ppi.init_ppi(True)
 
 from pappi.expr.hpa import HPA
 from pappi.expr.hpa_all import HPA_All
+from pappi.expr.hpa_rna import HPA_RNA
 from pappi.expr.emtab import Emtab
 from pappi.expr.rnaseq_atlas import RnaSeqAtlas
 from pappi.expr.gene_atlas import GeneAtlas
@@ -117,6 +118,9 @@ hpa_expr.init_data()
 
 hpa_all_expr = HPA_All(HPA_FILE, con)
 hpa_all_expr.init_data()
+
+hpa_rna = HPA_RNA(HPARNA_FILE, con)
+hpa_rna.init_data()
 
 emtab_expr = Emtab(EMTAB_FILE, con)
 emtab_expr.init_data()
@@ -149,7 +153,7 @@ overlap_analysis.calc_pairwise_ppi_edge_overlap(con)
 ###################################
 #  create core expression tables  #
 ###################################
-for expr in [hpa_expr, hpa_all_expr, emtab_expr, rnaseq_atlas, gene_atlas]:
+for expr in [hpa_expr, hpa_all_expr, hpa_rna, emtab_expr, rnaseq_atlas, gene_atlas]:
     print("creating core table for: " + expr.name)
     expr.create_core_table()
     # get expression counts for the core tables

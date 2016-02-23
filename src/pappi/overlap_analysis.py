@@ -7,7 +7,7 @@ PPIS_TO_ANALYZE = ['bossi', 'ccsb', 'ccsb_sec', 'havu', 'string', 'psicquic_all'
 #                   'psicquic_innatedb_imex', 'psicquic_intact',
 #                   'psicquic_matrixdb', 'psicquic_mbinfo', 'psicquic_mint',
 #                   'psicquic_molcon', 'psicquic_mpidb', 'psicquic_uniprot']
-EXPRS_TO_ANALYZE = ['emtab', 'gene_atlas', 'hpa', 'hpa_all', 'rnaseq_atlas']
+EXPRS_TO_ANALYZE = ['emtab', 'gene_atlas', 'hpa', 'hpa_rna', 'hpa_all', 'rnaseq_atlas']
 
 
 # TODO put these two next functions (create all ids) to the outside
