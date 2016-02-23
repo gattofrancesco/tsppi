@@ -31,7 +31,7 @@ GNF1H_ANNOT_FILE = os.path.join(EXPR_DATA_FOLDER, 'gnf1h.annot2007.tsv')
 U133A_ANNOT_FILE = os.path.join(EXPR_DATA_FOLDER, 'GPL96-15653.txt')
 
 # paths to PPIs
-CCSB_FILE = os.path.join(PPI_DATA_FOLDER, 'HI_2012_PRE.tsv')
+CCSB_FILE = os.path.join(PPI_DATA_FOLDER, 'HI-II-14.tsv')
 BOSSI_FILE = os.path.join(PPI_DATA_FOLDER, 'CRG.integrated.human.interactome.txt')
 HAVU_FILE = os.path.join(PPI_DATA_FOLDER, 'cell_havugimana_ppi.tsv')
 STRING_FILE = os.path.join(PPI_DATA_FOLDER, 'protein.links.v10.500.txt')

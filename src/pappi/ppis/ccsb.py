@@ -3,7 +3,7 @@ from . import ppi
 
 class CCSB(ppi.PPI):
     """
-    The PPI network HI-2012-Pre from CCSB at
+    The PPI networkfrom CCSB at
     Dana Farber / Harvard Medical School
     http://interactome.dfci.harvard.edu/H_sapiens/index.php?page=download
     """
