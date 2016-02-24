@@ -159,7 +159,7 @@ fit_powerlaw <- function(degrees)
 {
     # use max likelihood estimator (fits whole degree distribution)
     fit <- power.law.fit(degrees, implementation="R.mle")
-    alpha <- coef(fit)
+    alpha <- attributes(fit)$coef
     xmin <- min(degrees)
 
     params <- list(alpha=alpha, xmin=xmin)
