@@ -2,7 +2,7 @@
 get_ppis <- function()
 {
     # FIXME: do this properly (not hardcoded)
-    ppis <- c("bossi", "string", "psicquic_all", "havu", "ccsb")
+    ppis <- c("bossi", "string", "psicquic_all", "havu", "ccsb","ccsb_sec")
     return(ppis)
 }
 
@@ -33,7 +33,11 @@ to_short_ppi_name <- function(s)
     }
     else if (s == "ccsb")
     {
-        return ("HI-2012")
+        return ("HI-2014")
+    }
+    else if (s == "ccsb_sec")
+    {
+      return ("HI-2014 - Protein secretory pathway")
     }
     else
     {
@@ -68,6 +72,10 @@ to_ppi_name <- function(s)
     else if (s == "ccsb")
     {
         return ("CCSB HI-2012")
+    }
+    else if (s == "ccsb_sec")
+    {
+      return ("CCSB HI-2014 - Protein secretory pathway")
     }
     else
     {

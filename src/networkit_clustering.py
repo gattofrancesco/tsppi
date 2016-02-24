@@ -30,8 +30,8 @@ ppi_networkit.setLogLevel("ERROR")
 
 
 # TODO: put these somewhere unified
-PPI_NAMES = ["string", "ccsb", "bossi", "psicquic_all", "havu"]
-EXPR_NAMES = ["hpa", "hpa_all", "emtab", "rnaseq_atlas", "gene_atlas"]
+PPI_NAMES = ["string", "ccsb", "ccsb_sec", "bossi", "psicquic_all", "havu"]
+EXPR_NAMES = ["hpa", "hpa_all", "hpa_rna", "emtab", "rnaseq_atlas", "gene_atlas"]
 
 
 def cluster_hist(clusters):

@@ -1,7 +1,8 @@
 # returns all expresison data sets aliases
 get_exprs <- function()
 {
-    exprs <- c("emtab", "gene_atlas", "rnaseq_atlas", "hpa") #, "hpa_all")
+    exprs <- c("emtab", "gene_atlas", "rnaseq_atlas", "hpa", "hpa_all",
+               "hpa_rna")
     return(exprs)
 }
 
@@ -34,6 +35,10 @@ to_short_expr_name <- function(s)
     else if (s == "hpa_all")
     {
         return ("HPA All")
+    }
+    else if (s == "hpa_rna")
+    {
+      return ("HPA RNAseq")
     }
     else
     {
@@ -76,6 +81,10 @@ to_expr_name <- function(s)
     else if (s == "hpa_all")
     {
         return ("Human Protein Atlas (all)")
+    }
+    else if (s == "hpa_rna")
+    {
+      return ("Human Protein Atlas (RNAseq)")
     }
     else
     {

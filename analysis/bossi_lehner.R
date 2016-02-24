@@ -15,13 +15,13 @@ source("./expr_utils.R")
 get_ppis <- function()
 {
     # FIXME: do this properly (not hardcoded)
-    ppis <- c("bossi", "string", "psicquic_all", "havu", "ccsb")
+    ppis <- c("bossi", "string", "psicquic_all", "havu", "ccsb","ccsb_sec")
     return(ppis)
 }
 
 get_exprs <- function()
 {
-    exprs <- c("emtab", "gene_atlas", "rnaseq_atlas", "hpa", "hpa_all")
+    exprs <- c("emtab", "gene_atlas", "rnaseq_atlas", "hpa", "hpa_all","hpa_rna")
     return(exprs)
 }
 
